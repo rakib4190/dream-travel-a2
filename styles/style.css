@@ -12,3 +12,50 @@
 body {
     font-family: "Mulish", sans-serif;
 }
+
+/* shared styles */
+.orange-text {
+    color: var(--primary-color);
+}
+
+/* navbar styles */
+header {
+    max-width: 1250px;
+    margin: 40px auto;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-logo .nav-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #131318;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 25px;
+    text-transform: capitalize;
+
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
