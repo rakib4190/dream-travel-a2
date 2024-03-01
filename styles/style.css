@@ -18,6 +18,12 @@ body {
     color: var(--primary-color);
 }
 
+.gray-text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+
 /* navbar styles */
 header {
     max-width: 1250px;
@@ -31,7 +37,7 @@ header {
 }
 
 .nav-logo .nav-title {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 800;
     color: #131318;
 }
@@ -61,6 +67,46 @@ nav {
 }
 
 
+/* footer styles */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+
+}
+
+.footer-content {
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 110px 0px;
+}
+
+.footer-content .nav-logo {
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.footer-content .social-icon {
+    margin-top: 32px;
+
+}
+
+.social-icon .fa-brands {
+    font-size: 2rem;
+    margin-right: 25px;
+}
+
+.footer-hr {
+    height: 1px;
+    margin: 40px 0px;
+    background-color: rgb(216, 211, 211);
+    border: none;
+}
+
+.copyright-text {
+    font-size: 16px;
+    font-weight: 300;
+    color: #131318;
+}
 
 /*================ responsive styles =========== */
 /* reponsive for mobile view */
@@ -71,6 +117,18 @@ nav {
 
     .nav-items {
         margin-top: 20px;
+    }
+
+    .footer-content {
+        padding: 30px 0px;
+    }
+
+    .footer-hr {
+        margin: 24px 0px;
+    }
+    .footer-content .social-icon {
+        margin-top: 20px;
+
     }
 
 }
