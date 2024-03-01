@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #FF5400;
+    --secondary-color: #131318;
 }
 
 * {
@@ -22,6 +23,19 @@ body {
     font-size: 1rem;
     font-weight: 400;
     color: #5A5A5D;
+}
+
+.section-sub-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--secondary-color);
+    padding-bottom: 16px;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(216, 211, 211);
+    border: none;
 }
 
 /* navbar styles */
@@ -66,6 +80,55 @@ nav {
     font-weight: 700;
 }
 
+/* subscribe section style */
+.subscribe-container {
+    max-width: 1250px;
+    margin: 100px auto;
+    display: flex;
+    gap: 24px;
+
+}
+
+.subscribe-content {
+    width: 35%;
+    border: 1px solid var(--primary-color);
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.subscribe-content hr {
+    margin: 22px 0px;
+}
+
+.subscribe-content .form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.subscribe-content .form input,
+button {
+    padding: 20px 15px;
+    border-radius: 8px;
+    background-color: rgba(19, 19, 24, 0.05);
+    border: none;
+}
+
+.subscribe-content .form button {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.subscribe-images {
+    width: calc(100% - 35% - 24px);
+}
+
+.subscribe-images img {
+    width: 100%;
+
+}
 
 /* footer styles */
 footer {
@@ -95,7 +158,7 @@ footer {
     margin-right: 25px;
 }
 
-.footer-hr {
+.footer-content hr {
     height: 1px;
     margin: 40px 0px;
     background-color: rgb(216, 211, 211);
@@ -111,7 +174,9 @@ footer {
 /*================ responsive styles =========== */
 /* reponsive for mobile view */
 @media screen and (max-width:600px) {
-    nav {
+
+    nav,
+    .subscribe-container {
         flex-direction: column;
     }
 
@@ -119,13 +184,29 @@ footer {
         margin-top: 20px;
     }
 
+    .subscribe-container {
+        margin: 24px 20px;
+    }
+
+    .subscribe-content {
+        width: 90%;
+        margin: 0 auto;
+        padding: 24px;
+    }
+
+    .subscribe-images {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .footer-content {
         padding: 30px 0px;
     }
 
-    .footer-hr {
+    .footer-content hr {
         margin: 24px 0px;
     }
+
     .footer-content .social-icon {
         margin-top: 20px;
 
