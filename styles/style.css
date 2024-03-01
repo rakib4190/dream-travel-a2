@@ -59,3 +59,18 @@ nav {
     font-size: 1.1rem;
     font-weight: 700;
 }
+
+
+
+/*================ responsive styles =========== */
+/* reponsive for mobile view */
+@media screen and (max-width:600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-items {
+        margin-top: 20px;
+    }
+
+}
