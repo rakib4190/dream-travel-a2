@@ -202,8 +202,9 @@ select {
 }
 
 .choose-us-content {
-    max-width: 50%;
+    width: 50%;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
 .choose-us-content .section-title,
@@ -247,7 +248,6 @@ select {
     margin: 100px auto;
     display: flex;
     gap: 24px;
-
 }
 
 .subscribe-content {
@@ -288,13 +288,11 @@ button {
 
 .subscribe-images img {
     width: 100%;
-
 }
 
 /* footer styles */
 footer {
     background: rgba(19, 19, 24, 0.05);
-
 }
 
 .footer-content {
@@ -311,7 +309,6 @@ footer {
 
 .footer-content .social-icon {
     margin-top: 32px;
-
 }
 
 .social-icon .fa-brands {
@@ -338,13 +335,13 @@ footer {
 
     nav,
     .popular-tours-container,
+    .card-container,
     .subscribe-container {
         flex-direction: column;
     }
 
     .banner-container {
         margin: 24px 20px;
-
     }
 
     .banner-title {
@@ -368,7 +365,6 @@ footer {
         padding: 10px 20px;
         border-radius: 8px;
         width: 80%;
-
     }
 
     .filter-form input {
@@ -378,7 +374,22 @@ footer {
         width: 70%;
     }
 
-    .popular-tours-container {
+    .choose-us-content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .choose-us-container .card-3 {
+        width: 100%;
+        margin: 24px auto;
+    }
+
+    .card-container {
+        margin-top: 24px;
+    }
+
+    .popular-tours-container,
+    .choose-us-container {
         margin: 24px 20px;
     }
 
