@@ -176,7 +176,7 @@ select {
     color: #5A5A5D;
 }
 
-.popular-tours-content .btn {
+.popular-tours-content .btn-primary {
     margin-top: 30px;
 }
 
@@ -388,7 +388,7 @@ footer {
     }
 
     .filter-form select,
-    button {
+    .filter-form .btn-primary {
         border: 0;
         padding: 10px 20px;
         border-radius: 8px;
