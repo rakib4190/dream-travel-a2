@@ -97,14 +97,67 @@ nav {
     font-weight: 700;
 }
 
+/* banner section sryle */
+.banner-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../images/dtp-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 16px;
+    background-position: center;
+}
+
+.banner-content {
+
+    padding: 110px 0px;
+    text-align: center;
+}
+
+.banner-title {
+    margin-top: 50px;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.banner-content .gray-text {
+    margin-bottom: 48px;
+    color: #fff;
+}
+
+.filter-form {
+    border-radius: 8px;
+    background: rgba(216, 213, 213, 0.162);
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0px;
+}
+
+.filter-form input,
+select {
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.filter-form .btn-primary {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 /* popular tours section styles */
 .popular-tours-container {
     max-width: 1250px;
     margin: 100px auto;
     display: flex;
     gap: 50px;
-
-
 }
 
 .popular-tours-content {
@@ -234,6 +287,42 @@ footer {
     .popular-tours-container,
     .subscribe-container {
         flex-direction: column;
+    }
+
+    .banner-container {
+        margin: 24px 20px;
+
+    }
+
+    .banner-title {
+        margin-top: 10px;
+    }
+
+    .banner-content {
+        padding: 20px;
+    }
+
+    .filter-form {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .filter-form select,
+    button {
+        border: 0;
+        padding: 10px 20px;
+        border-radius: 8px;
+        width: 80%;
+
+    }
+
+    .filter-form input {
+        border: 0;
+        padding: 10px 20px;
+        border-radius: 8px;
+        width: 70%;
     }
 
     .popular-tours-container {
