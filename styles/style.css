@@ -468,7 +468,13 @@ footer {
         align-items: center;
     }
 
-    .filter-form select,
+    .filter-form select {
+        border: 0;
+        padding: 10px 20px;
+        border-radius: 8px;
+        width: 80%;
+    }
+
     .filter-form .btn-primary {
         border: 0;
         padding: 10px 20px;
@@ -533,7 +539,7 @@ footer {
     .subscribe-content {
         width: 80%;
         margin: 0 auto;
-       
+
     }
 
     .subscribe-images,
