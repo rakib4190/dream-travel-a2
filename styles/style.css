@@ -234,9 +234,6 @@ select {
     margin: 0 auto;
 }
 
-
-
-
 .card img {
     padding-bottom: 15px;
 }
@@ -357,11 +354,37 @@ button {
 
 .subscribe-images {
     width: calc(100% - 35% - 24px);
+    position: relative;
 }
 
 .subscribe-images img {
     width: 100%;
 }
+
+/* .svae-up {
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 16px;
+    width: 40%;
+    position: absolute;
+    bottom:15%;
+    right: 1%;
+    transform: rotate(-25deg);
+    text-align: center;
+}
+
+.svae-up p {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.svae-up h3 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+} */
+
 
 /* footer styles */
 footer {
