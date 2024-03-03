@@ -441,7 +441,7 @@ footer {
     }
 
     .nav-items {
-        margin-top: 20px;
+        display: none;
     }
 
     .banner-container,
@@ -531,9 +531,9 @@ footer {
     }
 
     .subscribe-content {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
-        padding: 24px;
+       
     }
 
     .subscribe-images,
@@ -544,6 +544,8 @@ footer {
 
     .footer-content {
         padding: 30px 0px;
+        margin: 24px 20px 0px 20px;
+
     }
 
     .footer-content hr {
@@ -554,7 +556,5 @@ footer {
         margin-top: 20px;
 
     }
-
-
 
 }
