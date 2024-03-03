@@ -52,6 +52,7 @@ hr {
     font-size: 1.25rem;
     font-weight: 800;
     border-radius: 8px;
+    border: none;
 }
 
 .choose-us-content,
@@ -143,8 +144,14 @@ nav {
     padding: 16px 0px;
 }
 
-.filter-form input,
-select {
+.filter-form input {
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.filter-form select {
     border: 0;
     padding: 10px 20px;
     border-radius: 8px;
@@ -337,24 +344,20 @@ select {
     gap: 25px;
 }
 
-.subscribe-content .form input,
-button {
+.subscribe-content .form input {
     padding: 20px 15px;
     border-radius: 8px;
     background-color: rgba(19, 19, 24, 0.05);
     border: none;
 }
 
-.subscribe-content .form button {
-    background-color: var(--primary-color);
-    color: #fff;
-    font-size: 1.25rem;
-    font-weight: 800;
+.subscribe-content .form .btn-primary {
+    padding: 20px 15px;
 }
 
 .subscribe-images {
-    width: calc(100% - 35% - 24px);
-    position: relative;
+    width: calc(65% - 24px);
+    /* position: relative; */
 }
 
 .subscribe-images img {
@@ -444,6 +447,10 @@ footer {
     .banner-container,
     .upcoming-tour-container {
         margin: 24px 20px;
+    }
+
+    .banner-container {
+        height: 800px;
     }
 
     .banner-title {
