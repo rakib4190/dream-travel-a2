@@ -52,7 +52,12 @@ hr {
     font-size: 1.25rem;
     font-weight: 800;
     border-radius: 8px;
+}
 
+.choose-us-content,
+.destination-content,
+.upcoming-tour-content {
+    text-align: center;
 }
 
 /* navbar styles */
@@ -229,12 +234,7 @@ select {
     margin: 0 auto;
 }
 
-.choose-us-content .section-title,
-#gray,
-.destination-content .section-title,
-.destination-content .gray-text {
-    text-align: center;
-}
+
 
 
 .card img {
@@ -267,21 +267,18 @@ select {
 
 .upcoming-tour-container {
     max-width: 1250px;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 
 .upcoming-tour-content {
-    max-width: 50%;
+    width: 50%;
     margin: 0 auto;
-    text-align: center;
     padding-bottom: 50px;
 }
 
 .upcoming-event-item {
     display: flex;
     gap: 30px;
-    align-items: center;
-
 }
 
 .upcoming-event-item .item-box {
@@ -412,6 +409,7 @@ footer {
     nav,
     .popular-tours-container,
     .card-container,
+    .upcoming-event-item,
     .subscribe-container {
         flex-direction: column;
     }
@@ -420,7 +418,8 @@ footer {
         margin-top: 20px;
     }
 
-    .banner-container {
+    .banner-container,
+    .upcoming-tour-container {
         margin: 24px 20px;
     }
 
@@ -455,7 +454,8 @@ footer {
     }
 
     .choose-us-content,
-    .destination-content {
+    .destination-content,
+    .upcoming-tour-content {
         width: 100%;
         margin: 0 auto;
     }
@@ -494,6 +494,10 @@ footer {
 
     .subscribe-container {
         margin: 24px 20px;
+    }
+
+    .item-box img {
+        width: 100%;
     }
 
     .subscribe-content {
